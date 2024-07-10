@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+:after,
+:before {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --black: #0e0a09;
+  --green: #00a52c;
+  --yellow: #fcc019;
+  --grey: #adadad;
+  --white: #fff;
+  --lemon: #fcff6d;
+  --dark-text: #144049;
+  --transition: 0.5s;
+  --max-width: 1078px;
+}
+
+body {
+  background: var(--white);
+  overflow-x: hidden;
+}
+
+.feature-card {
+  background: #ffffff;
+  box-shadow: 0px 92px 37px rgba(69, 52, 127, 0.01),
+    0px 52px 31px rgba(69, 52, 127, 0.05), 0px 23px 23px rgba(69, 52, 127, 0.09),
+    0px 6px 13px rgba(69, 52, 127, 0.1), 0px 0px 0px rgba(69, 52, 127, 0.1);
+  border-radius: 8px;
+}
+
+.container-width {
+  max-width: var(--max-width);
+}
+
+.dark-text {
+  color: var(--dark-text);
+}
+
+
+.ellipse-one {
+  background: var(--lemon);
+  opacity: 0.25;
+  filter: blur(250px);
+}
+
+.ellipse-three {
+  background: var(--green);
+  opacity: 0.25;
+  filter: blur(250px);
+}
+
+.ellipse-two {
+  background: var(--green);
+  opacity: 0.25;
+  filter: blur(250px);
+}
